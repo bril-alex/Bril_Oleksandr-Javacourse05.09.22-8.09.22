@@ -26,6 +26,11 @@ public class Homework_6_China {
         System.out.println("Rider  " + riderMin);
         System.out.println("Total Capacity Dynasty Li =   " + totalCapacityLi);
         System.out.println("Total Capacity Dynasty Min =   " + totalCapacityMin);
-        System.out.println("Dynasty Min Wins!");
+        if (totalCapacityLi>totalCapacityMin){
+            System.out.println("Dynasty Li Wins!");
+        }
+        else if (totalCapacityLi<totalCapacityMin) {
+            System.out.println("Dynasty Min Wins!");
+        }
     }
 }
