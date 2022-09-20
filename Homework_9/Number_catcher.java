@@ -4,12 +4,12 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Number_catcher {
-        public static void main(String[] args) {
-            Scanner consoleScanner = new Scanner(System.in);
-            Random consoleRandom = new Random();
-            System.out.println("Enter any number from 0 till 9");
-            int counter = 1;
-            while (counter <= 5){
+    public static void main(String[] args) {
+        Scanner consoleScanner = new Scanner(System.in);
+        Random consoleRandom = new Random();
+        System.out.println("Enter any number from 0 till 9");
+        int counter = 1;
+        while (counter <= 5){
                 counter++;
                 int randomNumber = consoleRandom.nextInt(9);
                 int enteredNumber = consoleScanner.nextInt();
@@ -25,7 +25,7 @@ public class Number_catcher {
                 System.out.println("You cache it, hidden number is " + randomNumber);
                 break;
             }
-            }
         }
+    }
 }
 
