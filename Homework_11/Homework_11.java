@@ -23,7 +23,6 @@ public class Homework_11 {
             sum_2+= second_team[a];
             average_2 = sum_2/ second_team.length;
             System.out.print(second_team[a] + " " );
-
         }
         System.out.println();
         System.out.println("Sum of age first-team = " + sum_1);
